@@ -1,0 +1,246 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Rishat Sultanov
+title: DevOps Engineer
+email: rihasultanov@gmail.com
+website: www.rishat.space
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: rishatdev
+github_username:  Rishats
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: rishatsultanov__
+linkedin_username: rishatdeveloper
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: rishat.space
+  icon: fas fa-globe
+  url: https://rishat.space
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi! I’m Rishat, DevOps engineer who came from Software Engineering. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+
+  I am most skilled in: <mark>DevOps</mark> and <mark>Eating Pizza</mark>
+
+content:
+  - title: DevOps Engineering projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: osi.kz
+        link: https://osi.kz
+        link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          OSI.kz is a Kazakhstan digital platform for self-management of housing and communal services.
+        description: | # this will include new lines to allow paragraphs
+          One of the latest and most interesting projects in which I took part. The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>Nexus</mark> <mark>Docker</mark> <mark>K8S</mark> <mark>K3S</mark> <mark>HAProxy</mark> <mark>PostgreSQL</mark> with <mark>Patroni</mark> for <mark>HA</mark>, <mark>Prometheus</mark> <mark>Grafana</mark> <mark>Redis</mark> <mark>MinIO</mark> <mark>OpenStack</mark> <mark>Ansible</mark> <mark>Terraform</mark>.
+      - layout: top-middle
+        title: bankrbk.kz 
+        link: https://bankrbk.kz
+        link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Bank RBK is a Kazakhstan retail bank. The head office is located in Alma-Ata. As of June 30, 2018, it has 10 regional branches.
+        description: | # this will include new lines to allow paragraphs
+           The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>MySQL</mark> <mark>Redis</mark> <mark>Ansible</mark> <mark>ElasticSearch</mark> <mark>DevSecOps</mark>.
+      - layout: top-middle
+        title: bi.group
+        link: https://bi.group
+        link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          BI Group is the largest investment and construction holding in Kazakhstan
+        description: | # this will include new lines to allow paragraphs
+           The technology stack consists of <mark>Proxmox</mark> <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>MySQL</mark> <mark>Redis</mark> <mark>Ansible</mark> <mark>Docker</mark>.
+      - layout: top-middle
+        title: business.altel.kz
+        link: https://business.altel.kz
+        link_text: Project Website
+        additional_links:
+          - title:  4g.tele2.kz
+            icon: fa fa-safari
+            url: https://4g.tele2.kz/
+        quote: >
+          One of the largest mobile operators in Kazakhstan TELE2/ALTEL
+        description: | # this will include new lines to allow paragraphs
+           The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>MySQL</mark> <mark>Redis</mark> <mark>Ansible</mark> <mark>SRE</mark> <mark>DevSecOps</mark> <mark>Docker</mark>.
+      - layout: top-middle
+        title: m-lombard.kz
+        link: https://m-lombard.kz
+        link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          M-Lombard is the largest network of gold pawnshops in Kazakhstan.
+        description: | # this will include new lines to allow paragraphs
+          The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>MySQL</mark> <mark>Redis</mark> <mark>Ansible</mark> <mark>DevSecOps</mark>.
+      - layout: top-middle
+        title: netmorem2m.com
+        link: https://www.netmorem2m.com
+        link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Netmore M2M platform for managing devices based on M2M SIM cards
+        description: | # this will include new lines to allow paragraphs
+          The technology stack consists of <mark>EC2</mark> <mark>RDS</mark> <mark>CloudFormation</mark> <mark>AWS</mark> <mark>S3</mark> <mark>VPC</mark> <mark>GitLab CI/CD</mark>
+      - layout: top-middle
+        title: jameson.kz
+        link: https://jameson.kz
+        link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Jameson is a blended Irish whiskey produced by the Irish Distillers subsidiary of Pernod Ricard.
+        description: | # this will include new lines to allow paragraphs
+           The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>MySQL</mark> <mark>Redis</mark> <mark>Ansible</mark> <mark>SRE</mark> <mark>DevSecOps</mark> <mark>Docker</mark>.
+      - layout: top-middle
+        title: halykbank.com
+        link: https://halykbank.com
+        link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          A website with all the actual information for the investors of Halyk Bank
+        description: | # this will include new lines to allow paragraphs
+           The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>MySQL</mark> <mark>Redis</mark> <mark>Ansible</mark> <mark>SRE</mark> <mark>DevSecOps</mark> <mark>Docker</mark>.
+      - layout: top-middle
+        title: dom.kz 
+        link: https://dom.kz
+        link_text: Project Website
+        additional_links:
+          - title:  CERTM service for HAProxy
+            icon: fab fa-github
+            url: github.com/Rishats/certm
+        quote: >
+          Dom.kz is a fundamentally new real estate resource that has taken into account all interests and is ready to respond to the needs of all market participants in Kazakhstan.
+        description: | # this will include new lines to allow paragraphs
+          One of the latest and most interesting projects in which I took part. The technology stack consists of <mark>Linux</mark> <mark>GitLab CI/CD</mark> <mark>Nexus</mark> <mark>Docker</mark> <mark>K8S</mark> <mark>K3S</mark> <mark>HAProxy</mark> <mark>PostgreSQL</mark> with <mark>Patroni</mark> for <mark>HA</mark> <mark>Prometheus</mark> <mark>Grafana</mark> <mark>Redis</mark> <mark>MinIO</mark> <mark>OpenStack</mark> <mark>Ansible</mark> <mark>Terraform</mark>.
+ 
+  - title:  # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: 
+        link: 
+        # link_text: boringcompany.com
+        quote: >
+          Not all projects located here because of NDA. You can request more info about projects, just PM me, i have private list.
+        description: | # this will include new lines to allow paragraphs
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Software Engineer with DevOps skills
+        link: https://ibecsystems.com
+        link_text: ibecsystems.com
+        sub_title: IBEC Systems
+        caption: December 2019 - Present
+        quote: >
+          During this period of time i was engaged in the DevOps Engineering.
+        description: | # this will include new lines to allow paragraphs
+           During this period of time, I met and worked with a large number of technologies: <mark>GitLab CI</mark> <mark>ArgoCD</mark> <mark>Travis CI</mark> <mark>Jenkins</mark> <mark>GItHub Actions</mark> <mark>K8S</mark> <mark>K3S</mark> <mark>Docker Swarm</mark> <mark>Minikube</mark> <mark>Proxmox</mark> <mark>Openstack</mark> <mark>VMware cloud</mark> <mark>KVM</mark> <mark>Yandex Cloud</mark> <mark>AWS</mark> <mark>GCP</mark> <mark>Oracle Cloud</mark> <mark>Prometheus</mark> <mark>Grafana</mark> <mark>Zabbix</mark> <mark>Nagios</mark> <mark>Postmortems(wiki)</mark> <mark>Status Page</mark> <mark>Terraform</mark> <mark>Ansible</mark> <mark>AWX</mark> <mark>ELK</mark> <mark>Loki</mark> <mark>Telegram</mark> <mark>Discord</mark> <mark>Jira</mark> <mark>TeamWork</mark> <mark>Trello</mark> <mark>Vault</mark> <mark>Clair</mark> <mark>Snyk</mark> <mark>JS(Vue,React)</mark> <mark>TypeScript</mark> <mark>PHP(Laravel,Yii)</mark> <mark>Java(Cuba,Spring)</mark> <mark>Golang(Fiber,Gin)</mark> <mark>IOS(Swift)</mark>
+            <mark>Android(Kotlin)</mark>
+
+      - layout: left
+        title: Software Engineer
+        link: https://ibecsystems.com
+        link_text: ibecsystems.com
+        sub_title: IBEC Systems
+        caption: May 2017 - December 2019
+        quote: >
+          During this period of time i was engaged in the development of websites.
+        description: | # this will include new lines to allow paragraphs
+           Times of combining studies at the institute and working with popular technologies: <mark>Golang</mark> <mark>Fiber</mark> <mark>PHP</mark> <mark>Laravel</mark> <mark>JavaScript</mark> <mark>Jquery</mark> <mark>Nuxt JS</mark> <mark>Vue JS</mark> <mark>Python</mark> <mark>Django</mark>
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Razzakov University
+        caption: 2018 - 2021
+        sub_title: BSc Computer Science
+        quote: >
+          University was founded in September 1954. It is the flagship of engineering education in Kyrgyzstan.KSTU has faculties such as: Information Technology, Power Energy, Transport and Machine Engineering, Technological.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Razzakov University I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      
+      - layout: left
+        title: IUCA University
+        caption: 2015 - 2018
+        sub_title: Software Engineering
+        quote: >
+          The International University of Central Asia (IUCA) is a small and friendly university, created according to an American model of higher education, and which meets the highest academic and ethical standards.
+        description: | # this will include new lines to allow paragraphs
+          During my time at IUCA University I definitely understood that I would dedicate my life to technologies and processes that require effective communication.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+      - Traveling
+      - Gaming
+      - [I like to get high just like this rabbit](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
