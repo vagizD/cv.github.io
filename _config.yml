@@ -6,23 +6,23 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Rishat Sultanov
+name: Vagiz Daudov
 title: DevOps Engineer
-email: rihasultanov@gmail.com
-website: www.rishat.space
+email: rihaDaudov@gmail.com
+website: www.Vagiz.space
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: rishatdev
-github_username:  Rishats
+twitter_username: Vagizdev
+github_username:  Vagizs
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: rishatsultanov__
-linkedin_username: rishatdeveloper
+instagram_username: VagizDaudov__
+linkedin_username: Vagizdeveloper
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -31,9 +31,9 @@ linkedin_username: rishatdeveloper
 
 # Additional icon links
 additional_links:
-- title: rishat.space
+- title: Vagiz.space
   icon: fas fa-globe
-  url: https://rishat.space
+  url: https://Vagiz.space
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,7 +48,7 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! I’m Rishat, DevOps engineer who came from Software Engineering. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi! I’m Vagiz, DevOps engineer who came from Software Engineering. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
 
   I am most skilled in: <mark>DevOps</mark> and <mark>Eating Pizza</mark>
 
@@ -159,7 +159,7 @@ content:
         additional_links:
           - title:  CERTM service for HAProxy
             icon: fab fa-github
-            url: github.com/Rishats/certm
+            url: github.com/Vagizs/certm
         quote: >
           Dom.kz is a fundamentally new real estate resource that has taken into account all interests and is ready to respond to the needs of all market participants in Kazakhstan.
         description: | # this will include new lines to allow paragraphs
