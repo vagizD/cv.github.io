@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Vagiz Daudov
 title: Junior Data Scientist
-email: vdaudov@edu.hse.ru
+email: vagiz.0282@gmail.com
 # website: www.Vagiz.space
 
 # Dark Mode (true/false/never)
@@ -106,11 +106,11 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Browser automation
+        title: HSE University
         # link: 
         # link_text: 
         # sub_title: 
-        caption: January 2022 - Present 
+        caption: December 2021 - Present
         quote: >
           Several projects for local purposes of University.
         description: | # this will include new lines to allow paragraphs
