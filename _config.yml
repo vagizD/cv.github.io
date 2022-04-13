@@ -81,6 +81,18 @@ content:
           The understanding of math and logic behind classical Machine Learning algorithms.
         description: | # this will include new lines to allow paragraphs
            Machine Learning algorithms are used to make predictions. Strong foundation of data science is to understand these algorithms. Currently, there are <mark>LinearRegression</mark> with Gradient Descent and <mark>DecisionTreeClassifier</mark>.
+      - layout: top-middle
+        title: intruder detection using webtracking sessions
+        link: https://github.com/vagizD/alice
+        link_text: Project repository
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+        quote: >
+          Solution to Kaggle competition "Catch Me If You Can".
+        description: |
+          Competition is based on which sites the user visited and what time the visit happened. Task is similar to real-world examples of frauds. "Burglars" behave differently from actual users and webtracking helps to identify these "key" patterns.
 
   - title:  Python projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -110,7 +122,7 @@ content:
         # link: 
         # link_text: 
         # sub_title: 
-        caption: December 2021 - Present
+        caption: December 2021 - January 2022
         quote: >
           Several projects for local purposes of University.
         description: | # this will include new lines to allow paragraphs
@@ -121,12 +133,12 @@ content:
     content:
       - layout: left
         title: National Research University Higher School of Economics Saint-Petersburg
-        caption: 2021 - Present
-        sub_title: International Business and Management
+        caption: 2022 - 2026
+        sub_title: Applied Mathematics and Informatics Faculty, Applied Data Analysis and AI Programme, Budget
         quote: >
-          NRU HSE SPb is a great place to get education and study full English taught programme with students from different countries and social backgrounds.
+          NRU HSE SPb is a great place to get education and study with students from different countries and social backgrounds.
         description: | # this will include new lines to allow paragraphs
-          Even though the educational standards at HSE are high, Data Science is my primary development focus. It is still possible to combine courses/projects/tasks and University studies. The workload is designed to test students for their time-management and self-education skills and habits, having which results in very effective growth.
+          HSE is a great place to learn. Having ML basics, competitions, and DS knowledge as a primary focus, I will learn C++, Java, optimization methods, and enhance my math background as well in the scope of Educational Programme.
 
   - title: Other proficiencies
     layout: text
@@ -135,6 +147,8 @@ content:
       - IELTS 7.5 - C1 (Advanced level of English)
       - French B1
       - Waterpolo Candidate in Master of sports
+      - Probability Theory course https://stepik.org/cert/1457262
+      
 
 # Footer
 footer_show_references: true
