@@ -140,14 +140,26 @@ content:
         description: | # this will include new lines to allow paragraphs
           HSE is a great place to learn. Having ML basics, competitions, and DS knowledge as a primary focus, I will learn C++, Java, optimization methods, and enhance my math background as well in the scope of Educational Programme.
 
+  - title: Courses
+    layout: list
+    content: # this will include new lines to allow paragraphs
+      - layout: middle
+        description: |
+          There are certificates of courses which I have completed to diverse my knowledge:
+      - layout: middle
+        link: https://stepik.org/cert/1457262
+        link_text: Probability Theory
+      - layout: middle
+        link: https://stepik.org/cert/1491085
+        link_text: Basic C++
+
   - title: Other proficiencies
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside with Univesity studies and self-development I have the following skills and certificates:
-      - IELTS 7.5 - C1 (Advanced level of English)
-      - French B1
-      - Waterpolo Candidate in Master of sports
-      - Probability Theory course https://stepik.org/cert/1457262
+      - IELTS 7.5 - C1 (Advanced level of English).
+      - French B1.
+      - Waterpolo Candidate in Master of sports.
       
 
 # Footer
