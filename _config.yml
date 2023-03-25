@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Vagiz Daudov
-title: Junior Data Scientist
+title: Data Scientist
 email: vagiz.0282@gmail.com
 # website: www.Vagiz.space
 
@@ -37,9 +37,9 @@ linkedin_username: vagiz-daudov
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Vagiz. I learn and practice to be good at analyzing data, making predictions, and being Python proficient coder. I like taking my time to achieve goals and show myself the results that I was not capable of sometime ago (about my cooking skills, do not mess it up:).
+  Hello! My name is Vagiz. I learn and practice to be good at analyzing data, making predictions, and being a proficient coder. I like taking my time to achieve goals and show myself the results that I was not capable of sometime ago (about my cooking skills, do not mess it up:).
   
-  Favourites: <mark>Chocolate</mark>, <mark>Guitar</mark>, <mark>Waterpolo</mark>, and <mark>Data</mark>.
+  Favourites: <mark>Chocolate</mark>, <mark>Guitar</mark>, <mark>Sport</mark>, and <mark>Data</mark>.
 
 content:
   - title: Data Science projects # Title for the section
@@ -47,8 +47,8 @@ content:
     content:
       - layout: top-middle
         title: credits
-        link: https://github.com/vagizD/credit-predictions
-        link_text: Project repository
+        link: https://github.com/vagizD/credit-predictions/blob/master/test-task.ipynb
+        link_text: Annotation
         additional_links:
           # - title:  sproogen/modern-resume-theme
           #   icon: fab fa-github
@@ -59,8 +59,8 @@ content:
            Credits are the main power of bank systems. Being able to separate potential overdues from disciplined returns is a crucial classification task. It is the most complicated and unsusual test task which I completed as a first-step competition for a job position. Used tools: <mark>LogisticRegression</mark>, <mark>RandomForestClassifier</mark>, <mark>CatBoostClassifier</mark> estimators from <mark>scikit-learn</mark> and <mark>catboost</mark> Machine Learning libraries; <mark>matplotlib</mark> and <mark>seaborn</mark> libraries for data visualizations; <mark>pandas</mark> and <mark>numpy</mark> for data manipulation.
       - layout: top-middle
         title: heart disease
-        link: https://github.com/vagizD/heart-disease
-        link_text: Project repository
+        link: https://github.com/vagizD/heart-disease/blob/master/secondary-analysis/annotation.ipynb
+        link_text: Annotation
         additional_links:
           # - title:  sproogen/modern-resume-theme
           #   icon: fab fa-github
@@ -70,33 +70,30 @@ content:
         description: | # this will include new lines to allow paragraphs
            The classification task related to identification of patients with heart diseases. High level of accuracy can save people's lives. Used tools: <mark>LogisticRegression</mark>, <mark>KNeighborsCLassifier</mark>, <mark>RandomForestClassifier</mark> from <mark>scikit-learn</mark>, <mark>matplotlib</mark>, <mark>pandas</mark>, <mark>numpy</mark>, and <mark>seaborn</mark>.
       - layout: top-middle
-        title: algorithms for machine learning
-        link: https://github.com/vagizD/algorithms
+        title: sampling algorithm
+        link: https://github.com/vagizD/sampling-algorithm
         link_text: Project repository
         additional_links:
           # - title:  sproogen/modern-resume-theme
           #   icon: fab fa-github
           #   url: github.com/sproogen/modern-resume-theme
         quote: >
-          The understanding of math and logic behind classical Machine Learning algorithms.
+          Sampling dataset to fit another distribution.
         description: | # this will include new lines to allow paragraphs
-           Machine Learning algorithms are used to make predictions. Strong foundation of data science is to understand these algorithms. Currently, there are <mark>LinearRegression</mark> with Gradient Descent and <mark>DecisionTreeClassifier</mark>.
-      - layout: top-middle
-        title: intruder detection using webtracking sessions
-        link: https://github.com/vagizD/alice
-        link_text: Project repository
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-        quote: >
-          Solution to Kaggle competition "Catch Me If You Can".
-        description: |
-          Competition is based on which sites the user visited and what time the visit happened. Task is similar to real-world examples of frauds. "Burglars" behave differently from actual users and webtracking helps to identify these "key" patterns.
+          The algorithm is designed specifically for certain problem - to sample dataset of issued credits such that its distribution (across some defined number of features) is approximately the same as the TTD dataset (which contains all credits, both approved (divides further into issued and not issued) and not approved). The final dataset is used to test ROC AUC score of ML models before being deployed into production pipeline. Since they are build to predict which clients will overdue credits, train and test sets must be labeled but also similar in distribution to the TTD dataset.
 
   - title:  Python projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: top-middle
+          title: students rating
+          link: https://github.com/vagizD/students-rating
+          link_text: Project repository
+          quote: >
+            Browser automation for local purposes.
+          description:
+            <mark>Selenium</mark> is the main tool used in this project. Chrome automation with <mark>chromedriver</mark> and html parsing with <mark>BeautifulSoup</mark> allow retrieving data from my University website (for privacy purposes names and links are removed from code). <mark>matplotlib</mark> and <mark>seaborn</mark> libraries visualize statistical data about student ratings.
+
       - layout: top-middle
         title: customers cafe
         link: https://github.com/vagizD/customers-cafe
@@ -105,40 +102,38 @@ content:
           Project for managing and monitoring customers data in a cafe.
         description: | # this will include new lines to allow paragraphs
           Knowledge of databases and ability to manage them are great skills in the 21st century. The project enables user to extract any relevant information about the customers. It mostly uses <mark>sqlite3</mark> library.
-      - layout: top-middle
-        title: students rating
-        link: https://github.com/vagizD/students-rating
-        link_text: Project repository
-        quote: >
-          Browser automation for local purposes.
-        description:
-          <mark>Selenium</mark> is the main tool used in this project. Chrome automation with <mark>chromedriver</mark> and html parsing with <mark>BeautifulSoup</mark> allow retrieving data from my University website (for privacy purposes names and links are removed from code). <mark>matplotlib</mark> and <mark>seaborn</mark> libraries visualize statistical data about student ratings.
 
-  - title: Experience # Title for the section
+  - title: C++
+    layout: list
+    content:
+      - layout: top-middle
+        title: console game
+        link: https://github.com/vagizD/tic-tac-toe
+        link_text: Game repository
+        description: | # this will include new lines to allow paragraphs
+          C++ project for practicing with `.dll` and `boost` library.
+          
+  - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: HSE University
-        # link: 
+      - layout: top-middle
+        title: Devim company
+        # link:
         # link_text: 
         # sub_title: 
-        caption: December 2021 - January 2022
-        quote: >
-          Several projects for local purposes of University.
+        caption: August 2022 - Current Time
         description: | # this will include new lines to allow paragraphs
-          I wrote scripts for automation of collection and processing of students data using <mark>Selenium</mark> and <mark>BeautifulSoup</mark>. <mark>scipy</mark> library was used to make statistical calculations; <mark>matplotlib</mark> with <mark>seaborn</mark> to give students feedback in form of grades distributions, normalization, etc.
+          DS specialist in fintech company [Devim](https://devim.com/). Our team solves credit risk problem and other tasks associated with service processes.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: National Research University Higher School of Economics Saint-Petersburg
+        title: HSE Saint-Petersburg
         caption: 2022 - 2026
-        sub_title: Applied Mathematics and Informatics Faculty, Applied Data Analysis and AI Programme, Budget
-        quote: >
-          NRU HSE SPb is a great place to get education and study with students from different countries and social backgrounds.
+        sub_title: Applied Mathematics and Informatics, AADAI
         description: | # this will include new lines to allow paragraphs
-          HSE is a great place to learn. Having ML basics, competitions, and DS knowledge as a primary focus, I will learn C++, Java, optimization methods, and enhance my math background as well in the scope of Educational Programme.
+          For me, courses are not easy and depth of knowledge in math and programming is tremendous. Education here makes me really happy.
 
   - title: Courses
     layout: list
@@ -157,7 +152,7 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside with Univesity studies and self-development I have the following skills and certificates:
-      - IELTS 7.5 - C1 (Advanced level of English).
+      - IELTS 7.5 - C1 level of English.
       - French B1.
       - Waterpolo Candidate in Master of sports.
       
