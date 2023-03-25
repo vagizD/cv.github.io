@@ -69,6 +69,7 @@ content:
           EDA of heart disease Kaggle dataset.
         description: | # this will include new lines to allow paragraphs
            The classification task related to identification of patients with heart diseases. High level of accuracy can save people's lives. Used tools: <mark>LogisticRegression</mark>, <mark>KNeighborsCLassifier</mark>, <mark>RandomForestClassifier</mark> from <mark>scikit-learn</mark>, <mark>matplotlib</mark>, <mark>pandas</mark>, <mark>numpy</mark>, and <mark>seaborn</mark>.
+
       - layout: top-middle
         title: sampling algorithm
         link: https://github.com/vagizD/sampling-algorithm
@@ -86,13 +87,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-          title: students rating
-          link: https://github.com/vagizD/students-rating
-          link_text: Project repository
-          quote: >
-            Browser automation for local purposes.
-          description:
-            <mark>Selenium</mark> is the main tool used in this project. Chrome automation with <mark>chromedriver</mark> and html parsing with <mark>BeautifulSoup</mark> allow retrieving data from my University website (for privacy purposes names and links are removed from code). <mark>matplotlib</mark> and <mark>seaborn</mark> libraries visualize statistical data about student ratings.
+        title: students rating
+        link: https://github.com/vagizD/students-rating
+        link_text: Project repository
+        quote: >
+          Browser automation for local purposes.
+        description:
+          <mark>Selenium</mark> is the main tool used in this project. Chrome automation with <mark>chromedriver</mark> and html parsing with <mark>BeautifulSoup</mark> allow retrieving data from my University website (for privacy purposes names and links are removed from code). <mark>matplotlib</mark> and <mark>seaborn</mark> libraries visualize statistical data about student ratings.
 
       - layout: top-middle
         title: customers cafe
@@ -112,7 +113,7 @@ content:
         link_text: Game repository
         description: | # this will include new lines to allow paragraphs
           C++ project for practicing with `.dll` and `boost` library.
-          
+
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
