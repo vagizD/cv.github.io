@@ -37,11 +37,42 @@ linkedin_username: vagiz-daudov
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Vagiz. I learn and practice to be good at analyzing data, making predictions, and being a proficient coder. I like taking my time to achieve goals and show myself the results that I was not capable of sometime ago (about my cooking skills, do not mess it up:).
+  Hello! My name is Vagiz, I am Applied Math & Programming student, from HSE SpB.
   
-  Favourites: <mark>Chocolate</mark>, <mark>Guitar</mark>, <mark>Sport</mark>, and <mark>Data</mark>.
+  Favourites: <mark>coding</mark>, <mark>fingerstyle</mark>, <mark>calisthenics</mark>, and <mark>ML</mark>.
 
 content:
+  - title: Work Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Devim
+        # link:
+        # link_text: 
+        # sub_title: 
+        caption: August 2022 - Current Time
+        description: | # this will include new lines to allow paragraphs
+          DS specialist in fintech company [Devim](https://devim.com/). Here are some tasks I've completed:
+
+          * [Sampling algorithm](https://github.com/vagizD/sampling-algorithm). The algorithm is designed specifically for certain 
+          problem - to sample dataset of issued credits such that its distribution is similar to the TTD dataset.
+          * Build data pipelines using Airflow.
+          * Compared ML algorithms using business metrics.
+          * Analysis of fraud cases.
+          * Various scripting/parsing python tasks.
+          * Other data engineering.
+
+  - title: Skills and Knowledge
+    layout: text
+    content: |
+      * Classic ML algorithms (classification, regression, clustering) and their mathematical motivation.
+      * Deep Learning algorithms (Artificial NN, CNN, RNN) and their mathematical motivation.
+      * Data Engineering (basic Airflow, MySQL, Postgres, Clickhouse).
+      * Python, C++.
+      * Git.
+      * Libraries toolkit: numpy, polars, seaborn, matplotlib, sklearn, tensorflow.
+
+
   - title: Data Science projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -70,61 +101,34 @@ content:
         description: | # this will include new lines to allow paragraphs
            The classification task related to identification of patients with heart diseases. High level of accuracy can save people's lives. Used tools: <mark>LogisticRegression</mark>, <mark>KNeighborsCLassifier</mark>, <mark>RandomForestClassifier</mark> from <mark>scikit-learn</mark>, <mark>matplotlib</mark>, <mark>pandas</mark>, <mark>numpy</mark>, and <mark>seaborn</mark>.
 
-      - layout: top-middle
-        title: sampling algorithm
-        link: https://github.com/vagizD/sampling-algorithm
-        link_text: Project repository
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-        quote: >
-          Sampling dataset to fit another distribution.
-        description: | # this will include new lines to allow paragraphs
-          The algorithm is designed specifically for certain problem - to sample dataset of issued credits such that its distribution (across some defined number of features) is approximately the same as the TTD dataset (which contains all credits, both approved (divides further into issued and not issued) and not approved). The final dataset is used to test ROC AUC score of ML models before being deployed into production pipeline. Since they are build to predict which clients will overdue credits, train and test sets must be labeled but also similar in distribution to the TTD dataset.
-
-  - title:  Python projects # Title for the section
+  - title:  Programming projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: students rating
-        link: https://github.com/vagizD/students-rating
-        link_text: Project repository
+        title: chrome-extension (JS, python)
+        link: https://github.com/vagizD/chrome-extension
+        link_text: Repo
         quote: >
-          Browser automation for local purposes.
+          Chrome extension for learning languages.
+        description:
+          Extension for Chrome users for instant translation during web-surfing. Unknown words are automatically added to
+          training session conducted in Telegram bot.
+
+      - layout: top-middle
+        title: students rating (python)
+        link: https://github.com/vagizD/students-rating
+        link_text: Repo
+        quote: >
+          Browser automation.
         description:
           <mark>Selenium</mark> is the main tool used in this project. Chrome automation with <mark>chromedriver</mark> and html parsing with <mark>BeautifulSoup</mark> allow retrieving data from my University website (for privacy purposes names and links are removed from code). <mark>matplotlib</mark> and <mark>seaborn</mark> libraries visualize statistical data about student ratings.
 
       - layout: top-middle
-        title: customers cafe
-        link: https://github.com/vagizD/customers-cafe
-        link_text: Project repository
-        quote: >
-          Project for managing and monitoring customers data in a cafe.
-        description: | # this will include new lines to allow paragraphs
-          Knowledge of databases and ability to manage them are great skills in the 21st century. The project enables user to extract any relevant information about the customers. It mostly uses <mark>sqlite3</mark> library.
-
-  - title: C++
-    layout: list
-    content:
-      - layout: top-middle
-        title: console game
+        title: console game (C++)
         link: https://github.com/vagizD/tic-tac-toe
-        link_text: Game repository
+        link_text: Game repo
         description: | # this will include new lines to allow paragraphs
-          C++ project for practicing with `.dll` and `boost` library.
-
-  - title: Work Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Devim company
-        # link:
-        # link_text: 
-        # sub_title: 
-        caption: August 2022 - Current Time
-        description: | # this will include new lines to allow paragraphs
-          DS specialist in fintech company [Devim](https://devim.com/). Our team solves credit risk problem and other tasks associated with service processes.
+          C++ project for practicing with `.dll` and `boost` library - tic-tac-toe game.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -148,6 +152,9 @@ content:
       - layout: middle
         link: https://stepik.org/cert/1491085
         link_text: Basic C++
+      - layout: middle
+        link: https://coursera.org/share/9198bf9e5641668612752b5cd17be8a2
+        link_text: Neural Networks
 
   - title: Other proficiencies
     layout: text
