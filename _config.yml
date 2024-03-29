@@ -18,117 +18,60 @@ darkmode: false
 github_username:  vagizD
 linkedin_username: vagiz-daudov
 
-# Additional icon links
-# additional_links:
-# - title: Vagiz.space
-#   icon: fas fa-globe
-#   url: https://Vagiz.space
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hello! My name is Vagiz, I am Applied Math & Programming student, from HSE SpB.
+  My name is Vagiz, I am AMI'26 student from HSE SPB.
   
-  Favourites: <mark>coding</mark>, <mark>fingerstyle</mark>, <mark>calisthenics</mark>, and <mark>ML</mark>.
-
 content:
   - title: Work Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
         title: Devim
-        # link:
-        # link_text: 
-        # sub_title: 
         caption: August 2022 - Current Time
         description: | # this will include new lines to allow paragraphs
-          DS specialist in fintech company [Devim](https://devim.com/). Here are some tasks I've completed:
-
-          * [Sampling algorithm](https://github.com/vagizD/sampling-algorithm). The algorithm is designed specifically for certain 
-          problem - to sample dataset of issued credits such that its distribution is similar to the TTD dataset.
+          DS specialist in fintech company [Devim](https://devim.com/).
+          * GNN on <mark>pytorch</mark>.
+          * Implementation of ML approaches in credit scoring.
           * Build data pipelines using Airflow.
-          * Compared ML algorithms using business metrics.
-          * Analysis of fraud cases.
-          * Various scripting/parsing python tasks.
-          * Other data engineering.
+          * Various scripting/parsing python3 tasks.
+          * Analytics.
 
-  - title: Skills and Knowledge
+  - title: Scientific Activity # Title for the section
+    layout: list
+    content: 
+      - layout: top-middle
+        title: SCILA
+        caption: November 2023 - Current Time
+        description: |
+          Intern at [Social and Cognitive Informatics Laboratory](https://scila.hse.ru/).
+          * Application of ML to EyeTracking and EEG data (paper in work).
+
+  - title: Proficiencies
     layout: text
     content: |
-      * Classic ML algorithms (classification, regression, clustering) and their mathematical motivation.
-      * Deep Learning algorithms (Artificial NN, CNN, RNN) and their mathematical motivation.
-      * Data Engineering (basic Airflow, MySQL, Postgres, Clickhouse).
-      * Python, C++.
-      * Git.
-      * Libraries toolkit: numpy, polars, seaborn, matplotlib, sklearn, tensorflow.
+      * Computer Vision (CV-course in School of Data Analysis, Yandex, autumn of 2023).
+      * ML/DL.
+      * SQL and Data Engineering (Airflow, Clickhouse).
+      * Python, C++/C, Assembly.
+      * <mark>pytorch</mark> knowledge.
 
-
-  - title: Data Science projects # Title for the section
+  - title: Previous Pet Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: credits
-        link: https://github.com/vagizD/credit-predictions/blob/master/test-task.ipynb
-        link_text: Annotation
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-        quote: >
-          Analysis of credits dataset with visualizations, explanations, and machine learning estimators testing. 
-        description: | # this will include new lines to allow paragraphs
-           Credits are the main power of bank systems. Being able to separate potential overdues from disciplined returns is a crucial classification task. It is the most complicated and unsusual test task which I completed as a first-step competition for a job position. Used tools: <mark>LogisticRegression</mark>, <mark>RandomForestClassifier</mark>, <mark>CatBoostClassifier</mark> estimators from <mark>scikit-learn</mark> and <mark>catboost</mark> Machine Learning libraries; <mark>matplotlib</mark> and <mark>seaborn</mark> libraries for data visualizations; <mark>pandas</mark> and <mark>numpy</mark> for data manipulation.
-      - layout: top-middle
-        title: heart disease
-        link: https://github.com/vagizD/heart-disease/blob/master/secondary-analysis/annotation.ipynb
-        link_text: Annotation
-        additional_links:
-          # - title:  sproogen/modern-resume-theme
-          #   icon: fab fa-github
-          #   url: github.com/sproogen/modern-resume-theme
-        quote: >
-          EDA of heart disease Kaggle dataset.
-        description: | # this will include new lines to allow paragraphs
-           The classification task related to identification of patients with heart diseases. High level of accuracy can save people's lives. Used tools: <mark>LogisticRegression</mark>, <mark>KNeighborsCLassifier</mark>, <mark>RandomForestClassifier</mark> from <mark>scikit-learn</mark>, <mark>matplotlib</mark>, <mark>pandas</mark>, <mark>numpy</mark>, and <mark>seaborn</mark>.
+        - layout: top-middle
+          title: chrome-extension (JS, python)
+          link: https://github.com/vagizD/chrome-extension
+          link_text: Repo
+          description:
+            Extension for Chrome users for instant translation during web-surfing and training with TG bot.
 
-  - title:  Programming projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: chrome-extension (JS, python)
-        link: https://github.com/vagizD/chrome-extension
-        link_text: Repo
-        quote: >
-          Chrome extension for learning languages.
-        description:
-          Extension for Chrome users for instant translation during web-surfing. Unknown words are automatically added to
-          training session conducted in Telegram bot.
-
-      - layout: top-middle
-        title: students rating (python)
-        link: https://github.com/vagizD/students-rating
-        link_text: Repo
-        quote: >
-          Browser automation.
-        description:
-          <mark>Selenium</mark> is the main tool used in this project. Chrome automation with <mark>chromedriver</mark> and html parsing with <mark>BeautifulSoup</mark> allow retrieving data from my University website (for privacy purposes names and links are removed from code). <mark>matplotlib</mark> and <mark>seaborn</mark> libraries visualize statistical data about student ratings.
-
-      - layout: top-middle
-        title: console game (C++)
-        link: https://github.com/vagizD/tic-tac-toe
-        link_text: Game repo
-        description: | # this will include new lines to allow paragraphs
-          C++ project for practicing with `.dll` and `boost` library - tic-tac-toe game.
+        - layout: top-middle
+          title: console game (C++)
+          link: https://github.com/vagizD/tic-tac-toe
+          link_text: Game repo
+          description: | # this will include new lines to allow paragraphs
+            C++ project for practicing with DLLs.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -137,33 +80,15 @@ content:
         title: HSE Saint-Petersburg
         caption: 2022 - 2026
         sub_title: Applied Mathematics and Informatics, AADAI
-        description: | # this will include new lines to allow paragraphs
-          For me, courses are not easy and depth of knowledge in math and programming is tremendous. Education here makes me really happy.
 
-  - title: Courses
-    layout: list
-    content: # this will include new lines to allow paragraphs
-      - layout: middle
-        description: |
-          There are certificates of courses which I have completed to diverse my knowledge:
-      - layout: middle
-        link: https://stepik.org/cert/1457262
-        link_text: Probability Theory
-      - layout: middle
-        link: https://stepik.org/cert/1491085
-        link_text: Basic C++
-      - layout: middle
-        link: https://coursera.org/share/9198bf9e5641668612752b5cd17be8a2
-        link_text: Neural Networks
-
-  - title: Other proficiencies
+  - title: Other Hobbies
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside with Univesity studies and self-development I have the following skills and certificates:
+      Alongside with Univesity studies, work, and Lab projects I have the following skills and certificates:
       - IELTS 7.5 - C1 level of English.
       - French B1.
       - Waterpolo Candidate in Master of sports.
-      
+      - [Neural Networks](https://coursera.org/share/9198bf9e5641668612752b5cd17be8a2).
 
 # Footer
 footer_show_references: true

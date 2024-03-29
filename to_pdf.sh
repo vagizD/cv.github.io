@@ -1,0 +1,1 @@
+wkhtmltopdf https://vagizd.github.io/cv.github.io/ cv.pdf
