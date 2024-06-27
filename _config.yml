@@ -31,7 +31,6 @@ content:
         caption: August 2022 - Current Time
         description: | # this will include new lines to allow paragraphs
           DS specialist in fintech company [Devim](https://devim.com/).
-          * GNN on <mark>pytorch</mark>.
           * Implementation of ML approaches in credit scoring.
           * Build data pipelines using Airflow.
           * Various scripting/parsing python3 tasks.
@@ -45,7 +44,7 @@ content:
         caption: November 2023 - Current Time
         description: |
           Intern at [Social and Cognitive Informatics Laboratory](https://scila.hse.ru/).
-          * Application of ML to EyeTracking and EEG data (paper in work).
+          * Application of ML to EyeTracking and EEG data (invited to [ECEM-2024](https://www.ecem2024.org/welcome.html)).
 
   - title: Proficiencies
     layout: text
@@ -55,6 +54,7 @@ content:
       * SQL and Data Engineering (Airflow, Clickhouse).
       * Python, C++/C, Assembly.
       * <mark>pytorch</mark> knowledge.
+      * Linux, bash.
 
   - title: Previous Pet Projects # Title for the section
     layout: list # Type of content section (list/text)
