@@ -44,7 +44,7 @@ content:
         caption: November 2023 - Current Time
         description: |
           Intern at [Social and Cognitive Informatics Laboratory](https://scila.hse.ru/).
-          * Application of ML to EyeTracking and EEG data (invited to [ECEM-2024](https://www.ecem2024.org/welcome.html)).
+          * [Application of ML to EyeTracking](https://github.com/hse-scila/EyeFeatures) data (invited to [ECEM-2024](https://www.ecem2024.org/welcome.html)).
 
   - title: Proficiencies
     layout: text
